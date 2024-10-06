@@ -1,0 +1,7 @@
+name:
+  type: str
+  help: package.json:name
+
+description:
+  type: str
+  help: package.json:description
