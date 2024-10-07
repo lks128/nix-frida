@@ -47,6 +47,10 @@
           pkgs.nodejs
         ];
 
+        shellHook = ''
+          ln -sfn ${modules} node_modules
+        '';
+
         NODE_PATH = "${modules}";
       };
     });
