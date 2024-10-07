@@ -3,7 +3,7 @@ Template for building Frida agent script in TypeScript.
 ## Usage
 
 ```shell
-copier copy gh:lks128/nix-frida my-agent
+copier copy gh:lks128/nix-frida-agent my-agent
 ```
 
 ## Important points
